@@ -23,7 +23,7 @@ namespace GTAProject
         }
         public virtual void Rijd()
         {
-            Console2.WriteLine(" rijdt");
+            Console2.WriteLine(" rijdt");gf
         }
 
     }
