@@ -8,22 +8,14 @@ namespace GTAProject
 {
     class Persoon
     {
-        private bool heeftRijbewijs = false;
-        public Persoon(bool heeftRijbewijs)
+        private string naam;
+        public Persoon(string naam)
         {
-            this.heeftRijbewijs = heeftRijbewijs;
-            if (heeftRijbewijs == true)
-            {
-                Console.WriteLine("Er werd een nieuwe persoon met een rijbewijs!");
-            }
-            if (heeftRijbewijs == false)
-            {
-                Console.WriteLine("Er werd een nieuwe persoon zonder rijbewijs!");
-            }
+            this.naam = naam; 
+
         }
-        public virtual void Rijd()
-        {
-            Console2.WriteLine(" rijdt");
+        public virtual void Rijbewijs() {
+            Console.WriteLine("{0} heeft een rijbewijs", naam);
         }
 
     }

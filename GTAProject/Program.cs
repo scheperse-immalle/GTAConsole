@@ -13,14 +13,17 @@ namespace GTAProject
        
             Voertuig v = new Auto();
             Voertuig truck = new Vrachtwagen();
-            Persoon Julie = new Persoon(true);
+            Persoon Julie = new Persoon("julie");
             Voertuig brommer = new Brommer();
             v.Rij();
             truck.Rij();
             brommer.Rij();
-            Julie.Rijd();
+            Julie.Rijbewijs();
 
-            
+            Console2.WriteLine("ab{{c}}def", ConsoleColor.Blue, ConsoleColor.Red);
+            Console.WriteLine("ab{{c}}def", ConsoleColor.Blue, ConsoleColor.Red);
+
+
         }
     }
 }

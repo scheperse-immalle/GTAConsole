@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace GTAProject
 {
-    class Dief : Persoon
-    {
-        public Dief() : base(true) { }
-    }
+    class Dief { }
+
 }
